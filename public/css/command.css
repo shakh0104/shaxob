@@ -360,43 +360,11 @@ p {
   margin-right: 10px;
 }
 
-.mainnav .centerbox .hov1,
-.hov2,
-.hov3,
-.hov4,
-.hov5 {
+.mainnav .centerbox .hov {
   transition: 0.5s;
 }
 
-.mainnav .centerbox .hov1:hover {
-  border-bottom: 1px solid rgba(245, 195, 75, 1);
-  font-size: larger;
-  margin: 0px 15px;
-  color: rgba(245, 195, 75, 1);
-}
-
-.mainnav .centerbox .hov2:hover {
-  border-bottom: 1px solid rgba(245, 195, 75, 1);
-  font-size: larger;
-  margin: 0px 15px;
-  color: rgba(245, 195, 75, 1);
-}
-
-.mainnav .centerbox .hov3:hover {
-  border-bottom: 1px solid rgba(245, 195, 75, 1);
-  font-size: larger;
-  margin: 0px 15px;
-  color: rgba(245, 195, 75, 1);
-}
-
-.mainnav .centerbox .hov4:hover {
-  border-bottom: 1px solid rgba(245, 195, 75, 1);
-  font-size: larger;
-  margin: 0px 15px;
-  color: rgba(245, 195, 75, 1);
-}
-
-.mainnav .centerbox .hov5:hover {
+.mainnav .centerbox .hov:hover {
   border-bottom: 1px solid rgba(245, 195, 75, 1);
   font-size: larger;
   margin: 0px 15px;
