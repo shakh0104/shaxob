@@ -311,7 +311,6 @@
   margin-top: 80px;
   position: relative;
   flex-direction: column;
-  margin-bottom: 50px;
 }
 
 .homepage .shopbox .container .header {
@@ -395,13 +394,6 @@
   margin-top: 15px;
 }
 
-/* .homepage .botthead .categ2 {
-  width: 142.55px;
-  height: 249px;
-  display: flex;
-  flex-direction: column;
-} */
-
 .homepage .categ2 .top {
   width: 142.55px;
   height: 150px;
@@ -429,14 +421,6 @@
   justify-content: center;
 }
 
-/* .homepage .botthead .categ3 {
-  width: 142.55px;
-  height: 249px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
-
 .homepage .categ3 .top {
   width: 142.55px;
   height: 150px;
@@ -461,14 +445,6 @@
   text-align: center;
   margin-top: 15px;
 }
-
-/* .homepage .botthead .categ4 {
-  width: 142.55px;
-  height: 249px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
 
 .homepage .categ4 .top {
   width: 142.55px;
@@ -495,14 +471,6 @@
   margin-top: 15px;
 }
 
-/* .homepage .botthead .categ5 {
-  width: 142.55px;
-  height: 249px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
-
 .homepage .categ5 .top {
   width: 142.55px;
   height: 150px;
@@ -528,14 +496,6 @@
   margin-top: 15px;
 }
 
-/* .homepage .botthead .categ6 {
-  width: 142.55px;
-  height: 249px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
-
 .homepage .categ6 .top {
   width: 142.55px;
   height: 150px;
@@ -559,4 +519,420 @@
   letter-spacing: 0%;
   text-align: center;
   margin-top: 15px;
+}
+
+/* BOTT FRAME START */
+
+.homepage .bottframe {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.homepage .bottframe .container {
+  flex-direction: column;
+  margin-top: 65px;
+  position: relative;
+}
+
+.homepage .bottframe .tophead {
+  width: 1320px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage .tophead .left {
+  width: 349px;
+  height: 40px;
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.homepage .tophead .right {
+  width: 55px;
+  height: 22px;
+  color: rgb(0, 0, 0);
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.tophead .right:hover {
+  border-bottom: 2px solid black;
+}
+
+.homepage .bottframe .centerhead {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage .centerhead .sellbox {
+  width: 306.91px;
+  height: 452px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homepage .centerhead .selltop {
+  background-image: url("../images/products/watch.png");
+}
+
+.homepage .centerhead .selltop,
+.selltop2,
+.selltop3,
+.selltop4 {
+  width: 294.89px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.homepage .centerhead .sellbox .imghead {
+  width: 262.13px;
+  height: 52px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+
+  background: rgba(0, 83, 246, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  visibility: hidden;
+}
+
+.homepage .centerhead .sellbox:hover .imghead {
+  visibility: visible;
+  width: 262.13px;
+  height: 52px;
+  background: rgba(0, 83, 246, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  position: absolute;
+  bottom: 5px;
+}
+
+.homepage .centerhead .selltop img {
+  width: 251.2px;
+  height: 230px;
+}
+
+/* SELL BOT START */
+
+.homepage .centerhead .sellbott {
+  width: 263.97px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage .sellbott .brand,
+.reviewspan,
+.costdel {
+  color: rgba(98, 105, 116, 1);
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.homepage .sellbott .review {
+  margin-top: 7px;
+}
+
+.homepage .sellbott .name,
+.costp {
+  margin-top: 7px;
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.homepage .sellbott .cost {
+  width: 95px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage .sellbott .cost .costdel {
+  margin-top: 5px;
+}
+
+.homepage .centerhead .selltop2 {
+  background-image: url("../images/products/phone.png");
+}
+
+.homepage .centerhead .selltop3 {
+  background-image: url("../images/products/iRobot.png");
+}
+
+.homepage .centerhead .selltop4 {
+  background-image: url("../images/products/dyson.png");
+}
+
+.homepage .centerhead .back {
+  width: 71.3px;
+  height: 80px;
+}
+
+.homepage .centerhead .next {
+  width: 71.3px;
+  height: 80px;
+  transform: rotate(180deg);
+  margin-bottom: 115px;
+}
+
+.homepage .bottheader {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.homepage .bottheader .littlebox {
+  width: 160.43px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.homepage .littlebox .photo2 {
+  transform: rotate(180deg);
+}
+
+.homepage .littlebox .crcle {
+  width: 4px;
+  height: 4px;
+  background-color: black;
+  border-radius: 1px solid black;
+  border-radius: 50%;
+}
+
+/* lineframe start */
+
+.homepage .lineframe {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: rgba(229, 237, 255, 1);
+  margin-top: 90px;
+}
+
+.homepage .lineframe .container {
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+
+.homepage .container .linep {
+  color: rgba(0, 83, 246, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+/* SECTION FRAME START */
+
+.homepage .sectionframe {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.homepage .sectionframe .container {
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.homepage .container .sectiontop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.homepage .sectiontop .right {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.homepage .sectiontop .right:hover {
+  border-bottom: 2px solid black;
+}
+
+.homepage .sectiontop .left {
+  color: rgba(1, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+/* SECTIONBOTT START */
+
+.homepage .container .sectionbott {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.homepage .sectionbott .leftbox {
+  width: 664.83px;
+  height: 368px;
+  border-radius: 6px;
+  background: rgba(243, 245, 246, 1);
+  display: flex;
+  align-items: flex-end;
+  box-shadow: rgb(211, 210, 210) 0px 15px 15px;
+}
+
+.homepage .leftbox .word {
+  width: 161.81px;
+  height: 139px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage .word span {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.homepage .word p {
+  margin-top: 7px;
+  width: 161.81px;
+  height: 76px;
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 38px;
+}
+
+.homepage .word a {
+  margin-top: 7px;
+  width: 70px;
+  height: 22px;
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.homepage .word div {
+  width: 32px;
+  height: 2px;
+  background-color: black;
+}
+
+.homepage .word a:hover ~ div {
+  width: 70px;
+  height: 2px;
+  background-color: black;
+}
+
+.homepage .leftbox .image {
+  margin: 30px 100px 30px;
+}
+
+/* RIGHTBOX START */
+
+.homepage .sectionbott .rightbox {
+  display: flex;
+  flex-direction: column;
+  margin-left: 33px;
+}
+
+.homepage .sectionbott .rightbox .topright {
+  height: 170px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 34px;
+}
+
+.homepage .topright .product {
+  width: 293.14px;
+  height: 167px;
+  border-radius: 6px;
+  background: rgba(243, 245, 246, 1);
+  display: flex;
+  position: relative;
+  box-shadow: rgb(211, 210, 210) 0px 15px 15px;
+}
+
+.homepage .product .wordprod {
+  margin-top: 30px;
+  margin-left: 35px;
+}
+
+.homepage .topright .product span {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.homepage .topright .product p {
+  color: rgba(98, 105, 116, 1);
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.homepage .product .photoprod {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
 }
