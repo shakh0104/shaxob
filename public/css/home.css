@@ -173,72 +173,6 @@
   border-bottom-right-radius: 10px;
 }
 
-/* box right. bottom qismi */
-
-.header_frame .rightcont .rbottcont {
-  width: 422.4px;
-  height: 240px;
-  display: flex;
-  position: relative;
-  background-color: rgba(242, 242, 242, 1);
-  border-radius: 10px;
-  margin-left: 30px;
-  align-items: center;
-  box-shadow: rgb(216, 215, 215) 0px 15px 15px;
-}
-
-.header_frame .rbottcont .boxleft {
-  margin-left: 35px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.header_frame .rbottcont .boxleft span {
-  width: 207.57px;
-  height: 22px;
-  color: rgba(0, 83, 246, 1);
-  font-family: "Jost";
-  font-style: normal;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 22px;
-}
-
-.header_frame .rbottcont .boxleft p {
-  width: 210.69px;
-  height: 76px;
-  color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
-  font-style: normal;
-  font-size: 26px;
-  font-weight: 400;
-  line-height: 38px;
-}
-
-.header_frame.rbottcont.boxleft a {
-  width: 80px;
-
-  color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
-  font-style: normal;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 22px;
-}
-
-.header_frame.rbottcont img {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-}
-
-.header_frame .rbottcont .boxleft div {
-  width: 127.33px;
-  height: 2px;
-  background-color: rgba(4, 30, 66, 1);
-}
-
 /* servis qismi */
 
 .homepage .servicframe {
@@ -258,10 +192,7 @@
   padding-bottom: 10px;
 }
 
-.servicframe .container .first,
-.second,
-.third,
-.fourth {
+.servicframe .container .service {
   width: 263.06px;
   height: 77px;
   display: flex;
@@ -356,12 +287,7 @@
   gap: 93.22px;
 }
 
-.homepage .botthead .categ1,
-.categ2,
-.categ3,
-.categ4,
-.categ5,
-.categ6 {
+.homepage .botthead .categ {
   width: 142.55px;
   height: 249px;
   display: flex;
@@ -369,7 +295,7 @@
   align-items: center;
 }
 
-.homepage .categ1 .top {
+.homepage .categ .top {
   width: 142.55px;
   height: 150px;
   box-sizing: border-box;
@@ -380,135 +306,8 @@
   align-items: center;
 }
 
-.homepage .categ1 .bott {
+.homepage .categ .bott {
   width: 135.9px;
-  height: 84px;
-  color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
-  font-style: Medium;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 28px;
-  letter-spacing: 0%;
-  text-align: center;
-  margin-top: 15px;
-}
-
-.homepage .categ2 .top {
-  width: 142.55px;
-  height: 150px;
-  box-sizing: border-box;
-  border: 1px solid rgba(234, 234, 234, 1);
-  border-radius: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.homepage .categ2 .bott {
-  width: 135.9px;
-  height: 84px;
-  color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
-  font-style: Medium;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 28px;
-  letter-spacing: 0%;
-  text-align: center;
-  margin-top: 15px;
-  display: flex;
-  justify-content: center;
-}
-
-.homepage .categ3 .top {
-  width: 142.55px;
-  height: 150px;
-  box-sizing: border-box;
-  border: 1px solid rgba(234, 234, 234, 1);
-  border-radius: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.homepage .categ3 .bott {
-  width: 55.67px;
-  height: 56px;
-  color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
-  font-style: Medium;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 28px;
-  letter-spacing: 0%;
-  text-align: center;
-  margin-top: 15px;
-}
-
-.homepage .categ4 .top {
-  width: 142.55px;
-  height: 150px;
-  box-sizing: border-box;
-  border: 1px solid rgba(234, 234, 234, 1);
-  border-radius: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.homepage .categ4 .bott {
-  width: 121.64px;
-  height: 84px;
-  color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
-  font-style: Medium;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 28px;
-  letter-spacing: 0%;
-  text-align: center;
-  margin-top: 15px;
-}
-
-.homepage .categ5 .top {
-  width: 142.55px;
-  height: 150px;
-  box-sizing: border-box;
-  border: 1px solid rgba(234, 234, 234, 1);
-  border-radius: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.homepage .categ5 .bott {
-  width: 121.64px;
-  height: 84px;
-  color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
-  font-style: Medium;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 28px;
-  letter-spacing: 0%;
-  text-align: center;
-  margin-top: 15px;
-}
-
-.homepage .categ6 .top {
-  width: 142.55px;
-  height: 150px;
-  box-sizing: border-box;
-  border: 1px solid rgba(234, 234, 234, 1);
-  border-radius: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.homepage .categ6 .bott {
-  width: 121.64px;
   height: 84px;
   color: rgba(4, 30, 66, 1);
   font-family: "Jost";
