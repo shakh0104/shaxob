@@ -624,22 +624,8 @@
 
 .homepage .centerhead .sellbox:hover .imghead {
   visibility: visible;
-  width: 262.13px;
-  height: 52px;
-  background: rgba(0, 83, 246, 1);
-  color: rgba(255, 255, 255, 1);
-  font-family: "Jost";
-  font-style: normal;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 22px;
   position: absolute;
   bottom: 5px;
-}
-
-.homepage .centerhead .selltop img {
-  width: 251.2px;
-  height: 230px;
 }
 
 /* SELL BOT START */
@@ -888,19 +874,20 @@
 .homepage .sectionbott .rightbox {
   display: flex;
   flex-direction: column;
-  margin-left: 33px;
+  margin-left: 37px;
 }
 
 .homepage .sectionbott .rightbox .topright {
   height: 170px;
+  width: 664.83px;
   display: flex;
   flex-wrap: wrap;
-  gap: 34px;
+  gap: 29px;
 }
 
 .homepage .topright .product {
   width: 293.14px;
-  height: 167px;
+  height: 170px;
   border-radius: 6px;
   background: rgba(243, 245, 246, 1);
   display: flex;
@@ -935,4 +922,127 @@
   position: absolute;
   right: 20px;
   bottom: 20px;
+}
+
+/* LOWERFRAME START */
+
+.homepage .lowerframe {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.homepage .lowerframe .container {
+  position: relative;
+  margin-top: 90px;
+  flex-direction: column;
+}
+
+/* LOWERTOP */
+
+.homepage .container .lowertop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1320px;
+  height: 40px;
+  margin-bottom: 31px;
+}
+
+.homepage .lowertop .ltopleft {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.homepage .lowertop .ltopright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 523.19px;
+  height: 28px;
+}
+
+.homepage .lowertop .ltopright .wordtop {
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-left: 5px;
+}
+
+.homepage .lowertop .ltopright .wordtop:hover {
+  border-bottom: 2px solid black;
+  color: black;
+}
+
+.homepage .lowertop .ltopright span {
+  color: rgba(98, 105, 116, 1);
+}
+
+/* LOWER CENTER START*/
+
+.homepage .lowerframe .lowercenter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage .lowercenter .adsproduct {
+  width: 260px;
+  height: 452px;
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage .lowercenter .adsproduct .selltop {
+  width: 212.81px;
+  height: 230px;
+  background-image: url("../images/products/samsung_tv.png");
+}
+
+.homepage .lowercenter .adsproduct .selltop2 {
+  width: 212.81px;
+  height: 230px;
+  background-image: url("../images/products/tcl.png");
+}
+
+.homepage .lowercenter .adsproduct .selltop3 {
+  width: 212.81px;
+  height: 230px;
+  background-image: url("../images/products/LG-UHD.png");
+}
+
+.homepage .lowercenter .adsproduct .selltop4 {
+  width: 212.81px;
+  height: 230px;
+  background-image: url("../images/products/LG-OLED.png");
+}
+
+.homepage .lowercenter .adsproduct .selltop5 {
+  width: 212.81px;
+  height: 230px;
+  background-image: url("../images/products/SONY-TV.png");
+}
+
+.homepage .lowercenter .back {
+  width: 20.46px;
+  height: 22px;
+  margin-right: 25px;
+}
+
+.homepage .lowercenter .next {
+  width: 20.46px;
+  height: 22px;
+  transform: rotate(-180deg);
+}
+
+.homepage .lowercenter .adsproduct .sellbott {
+  width: 222.06px;
+  height: 148.5px;
 }
