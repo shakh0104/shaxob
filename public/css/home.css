@@ -497,11 +497,11 @@
   justify-content: space-between;
 }
 
-.homepage .littlebox .photo2 {
+.homepage .bottheader .littlebox .photo2 {
   transform: rotate(180deg);
 }
 
-.homepage .littlebox .crcle {
+.homepage .bottheader .littlebox .crcle {
   width: 4px;
   height: 4px;
   background-color: black;
@@ -829,4 +829,184 @@
 .homepage .lowercenter .adsproduct .sellbott {
   width: 222.06px;
   height: 148.5px;
+}
+
+.homepage .lowerframe .lowerbott {
+  display: flex;
+  justify-content: center;
+}
+
+.homepage .lowerframe .lowerbott .littlebox {
+  width: 160.43px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.homepage .lowerframe .lowerbott .littlebox .photo2 {
+  transform: rotate(180deg);
+}
+
+.homepage .lowerframe .lowerbott .littlebox .crcle {
+  width: 4px;
+  height: 4px;
+  background-color: black;
+  border-radius: 1px solid black;
+  border-radius: 50%;
+}
+
+/* DEAL FRAME START */
+
+.homepage .dealframe {
+  width: 100%;
+  height: 632px;
+  background-image: url("../images/icons/event_bg.png");
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage .dealframe .container {
+  height: 392px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.homepage .dealframe .aboutdeal {
+  display: flex;
+  flex-direction: column;
+  width: 334.03px;
+  height: 214px;
+  justify-content: space-between;
+}
+
+.homepage .dealframe .info {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.homepage .dealframe .date {
+  width: 333.81px;
+  height: 62px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.homepage .dealframe .date .time {
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage .dealframe .date .time p {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.homepage .dealframe .date .time span {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.homepage .dealframe .aboutdeal .dealbutton {
+  width: 141.79px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 6px;
+
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.homepage .dealframe .aboutdeal .dealbutton:hover {
+  background-color: rgba(245, 195, 75, 1);
+}
+
+.homepage .dealframe .container .dealsproducts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.homepage .dealframe .container .dealsproducts .dealitems {
+  width: 205.28px;
+  height: 392px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage .dealframe .dealitems .sellimg {
+  width: 168.11px;
+  height: 190px;
+}
+
+.homepage .dealframe .dealitems .sellinfo {
+  width: 168.11px;
+  height: 149.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* info section */
+
+.homepage .dealframe .dealitems .brdwith {
+  color: rgba(98, 105, 116, 1);
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.homepage .dealframe .sellinfo .ncwith {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.homepage .dealframe .sellinfo .cost {
+  width: 88px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage .dealframe .dealsproducts .next {
+  transform: rotate(-180deg);
+  margin-bottom: 115px;
+  margin-top: 110px;
+}
+
+.homepage .dealframe .container .dealsproducts .dealitems:hover {
+  border-bottom: 4px solid rgb(0, 0, 0);
 }

@@ -131,18 +131,17 @@ p {
 .mainnav .topnav .uchqisim {
   width: 416.87px;
   height: 50px;
-  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.mainnav .uchqisim .items {
+.mainnav .container .uchqisim .items {
   width: 140.4px;
   height: 50px;
-  box-sizing: border-box;
-  margin-right: 18px;
+  /* margin-right: 3px; */
   display: flex;
+  justify-content: flex-end;
 }
 
 .mainnav .items .items_logo {
@@ -166,8 +165,6 @@ p {
 }
 
 .mainnav .items .word {
-  width: 69.1px;
-  height: 43px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
