@@ -114,8 +114,6 @@ p {
 }
 
 .mainnav .sandtbox form .button {
-  /* border: none;
-  background-color: white; */
   visibility: hidden;
   outline: none;
 }

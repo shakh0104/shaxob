@@ -249,6 +249,7 @@
   height: 40px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .homepage .header .left {
@@ -354,7 +355,7 @@
 }
 
 .homepage .tophead .right {
-  width: 55px;
+  width: 53px;
   height: 22px;
   color: rgb(0, 0, 0);
   font-family: "Jost";
@@ -371,41 +372,34 @@
 .homepage .bottframe .centerhead {
   display: flex;
   margin-top: 30px;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
 .homepage .centerhead .sellbox {
   width: 306.91px;
-  height: 452px;
+
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.homepage .centerhead .selltop img {
+  width: 251.2px;
+  height: 230px;
+  display: flex;
+  justify-content: center;
 }
 
 .homepage .centerhead .selltop {
-  background-image: url("../images/products/watch.png");
-}
-
-.homepage .centerhead .selltop,
-.selltop2,
-.selltop3,
-.selltop4 {
   width: 294.89px;
   height: 280px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
   position: relative;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .homepage .centerhead .sellbox .imghead {
-  width: 262.13px;
-  height: 52px;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -422,6 +416,8 @@
 }
 
 .homepage .centerhead .sellbox:hover .imghead {
+  width: 262.13px;
+  height: 52px;
   visibility: visible;
   position: absolute;
   bottom: 5px;
@@ -431,7 +427,8 @@
 
 .homepage .centerhead .sellbott {
   width: 263.97px;
-
+  height: 100%;
+  height: 148.5px;
   display: flex;
   flex-direction: column;
 }
@@ -474,18 +471,6 @@
   margin-top: 5px;
 }
 
-.homepage .centerhead .selltop2 {
-  background-image: url("../images/products/phone.png");
-}
-
-.homepage .centerhead .selltop3 {
-  background-image: url("../images/products/iRobot.png");
-}
-
-.homepage .centerhead .selltop4 {
-  background-image: url("../images/products/dyson.png");
-}
-
 .homepage .centerhead .back {
   width: 71.3px;
   height: 80px;
@@ -494,7 +479,7 @@
 .homepage .centerhead .next {
   width: 71.3px;
   height: 80px;
-  transform: rotate(180deg);
+  transform: rotate(-180deg);
   margin-bottom: 115px;
 }
 
