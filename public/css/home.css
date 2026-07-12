@@ -784,54 +784,58 @@
 
 /* LOWER CENTER START*/
 
-.homepage .lowerframe .lowercenter {
+.homepage .lowerframe .swiper-container {
   width: 100%;
+  height: 100%;
+  overflow: hidden;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
 }
 
-.homepage .lowercenter .adsproduct {
+.homepage .lowerframe .swiper-container .swiper-wrapper {
+  display: flex;
+  width: 1120px;
+}
+
+.homepage .lowerframe .swiper-container .swiper-slide {
   width: 260px;
-  height: 452px;
+  height: auto;
+  margin-bottom: 30px;
+  padding: 0px 10px 10px;
   display: flex;
   flex-direction: column;
+  object-fit: cover;
+  border: 4px solid rgb(240, 238, 238);
+  box-shadow: rgb(200, 199, 199) 0px 15px 15px;
+  border-radius: 10px;
 }
 
-.homepage .lowercenter .adsproduct .selltop {
+.homepage .lowerframe .swiper-container .swiper-slide:hover {
+  border: 4px solid rgb(190, 187, 187);
+}
+
+.homepage .lowerframe .swiper-container .swiper-slide .selltop {
   width: 212.81px;
   height: 230px;
 }
 
-.homepage .lowercenter .back {
-  width: 20.46px;
-  height: 22px;
-  margin-right: 25px;
-}
-
-.homepage .lowercenter .next {
-  width: 20.46px;
-  height: 22px;
-  transform: rotate(-180deg);
-}
-
-.homepage .lowercenter .adsproduct .sellbott {
+.homepage .lowerframe .swiper-container .swiper-slide .sellbott {
   width: 222.06px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.homepage .lowercenter .adsproduct .brrevdel {
+.homepage .lowerframe .swiper-container .swiper-slide .brrevdel {
   color: rgba(98, 105, 116, 1);
   font-family: "Jost";
-  font-style: Regular;
+  font-style: normal;
   font-size: 13px;
   font-weight: 400;
   line-height: 22px;
 }
 
-.homepage .lowercenter .adsproduct .nancos {
+.homepage .lowerframe .swiper-container .swiper-slide .nancos {
   color: rgba(4, 30, 66, 1);
   font-family: "Jost";
   font-style: Medium;
@@ -840,37 +844,12 @@
   line-height: 28px;
 }
 
-.homepage .lowercenter .adsproduct .cost {
+.homepage .lowerframe .swiper-container .swiper-slide .cost {
   display: flex;
   width: 95px;
   height: 26px;
   justify-content: space-between;
   align-items: center;
-}
-
-.homepage .lowerframe .lowerbott {
-  display: flex;
-  justify-content: center;
-}
-
-.homepage .lowerframe .lowerbott .littlebox {
-  width: 160.43px;
-  height: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.homepage .lowerframe .lowerbott .littlebox .photo2 {
-  transform: rotate(180deg);
-}
-
-.homepage .lowerframe .lowerbott .littlebox .crcle {
-  width: 4px;
-  height: 4px;
-  background-color: black;
-  border-radius: 1px solid black;
-  border-radius: 50%;
 }
 
 /* DEAL FRAME START */
