@@ -316,3 +316,217 @@ p {
   line-height: 28px;
   letter-spacing: 0%;
 }
+
+/* FOOTER SECTION START */
+
+.footer-frame {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(234, 234, 234, 1);
+  height: 507px;
+}
+
+.footer-frame .container {
+  flex-direction: column;
+}
+
+.footer-frame .container .top-header {
+  margin-top: 90px;
+  display: flex;
+}
+
+.footer-frame .container .top-header .section1 {
+  width: 285px;
+  height: 194px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-right: 40px;
+}
+
+.footer-frame .container .top-header .inername {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.footer-frame .container .top-header .section1 .contact {
+  width: 274.31px;
+  height: 54px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-frame .container .top-header .section1 .contact .topcon {
+  width: 274.31px;
+  height: 54px;
+  display: flex;
+  gap: 30px;
+}
+
+.footer-frame .container .top-header .section1 .contact .topcon img {
+  width: 35.63px;
+  height: 30px;
+}
+
+.footer-frame .container .top-header .section1 .contact .topcon p {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.footer-frame .container .top-header .section1 .contact .time span {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.footer-frame .container .top-header .section2 {
+  width: 193.67px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 55px;
+}
+
+.footer-frame .container .top-header .section2 .support {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.footer-frame .container .top-header .inername {
+  margin-bottom: 20px;
+}
+
+.footer-frame .container .top-header .section3 {
+  width: 177.79px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 55px;
+}
+
+.footer-frame .container .top-header .support {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.footer-frame .container .top-header .section4 {
+  width: 154.91px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+}
+
+.footer-frame .container .top-header .section4 .social {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.footer-frame .container .top-header .section4 .social img {
+  width: 11.47px;
+  height: 15.57px;
+}
+
+.footer-frame .container .top-header .section5 {
+  width: 154.91px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.footer-frame .container .top-header .section4 .mobile img {
+  margin-right: 10px;
+}
+
+.footer-frame .container .top-header .section5 {
+  width: auto;
+  height: 200.1px;
+  display: flex;
+  align-items: end;
+}
+
+.footer-frame .container .top-header .section5 .mainbox {
+  display: flex;
+  flex-direction: column;
+}
+
+/* lower section start */
+
+.footer-frame .lover-header {
+  display: flex;
+
+  height: 61px;
+  border-top: 1px solid rgb(153, 150, 150);
+  margin-top: 90px;
+  align-items: center;
+}
+
+.footer-frame .lover-header .terms {
+  display: flex;
+  gap: 80px;
+  margin-right: 400px;
+}
+
+.footer-frame .lover-header .terms p {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.footer-frame .lover-header .currensy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 187.77px;
+  height: 40.1px;
+  border-radius: 5px;
+  border: 1px solid rgb(168, 165, 165);
+  background-color: white;
+  margin-right: 50px;
+}
+
+.footer-frame .lover-header .currensy span {
+  color: rgba(98, 105, 116, 1);
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-left: 10px;
+}
+
+.footer-frame .lover-header .currensy select {
+  border: none;
+  background-color: none;
+  height: 40px;
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  outline: none;
+}
