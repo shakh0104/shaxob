@@ -330,6 +330,7 @@
 }
 
 .homepage .bottframe .container {
+  display: flex;
   flex-direction: column;
   margin-top: 65px;
   position: relative;

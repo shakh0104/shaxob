@@ -1,3 +1,7 @@
+:root {
+  --font: "Jost";
+}
+
 html,
 body {
   margin: 0;
@@ -76,7 +80,7 @@ p {
   border: none;
   outline: none;
   color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 15px;
   font-weight: 400;
@@ -95,7 +99,7 @@ p {
   border: none;
   outline: none;
   color: rgba(98, 105, 116, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-size: 15px;
   font-weight: 400;
@@ -170,7 +174,7 @@ p {
   justify-content: flex-end;
   margin-left: 16px;
   color: rgba(255, 255, 255, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Bold;
   font-size: 15px;
   font-weight: 300;
@@ -205,7 +209,7 @@ p {
   justify-content: center;
   align-items: center;
   color: rgba(11, 30, 64, 1);
-  font-family: "jost";
+  font-family: var(--font);
   font-style: Bold;
   font-size: 8px;
   font-weight: 700;
@@ -259,7 +263,7 @@ p {
   width: 133.44px;
   height: 28px;
   color: rgba(255, 255, 255, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 16px;
   font-weight: 500;
@@ -278,7 +282,7 @@ p {
 
 .mainnav .centerbox a {
   color: rgba(255, 255, 255, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 16px;
   font-weight: 500;
@@ -309,7 +313,7 @@ p {
 .mainnav .bottnav .rightbox span {
   height: 28px;
   color: rgba(255, 255, 255, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 16px;
   font-weight: 500;
@@ -347,7 +351,7 @@ p {
 
 .footer-frame .container .top-header .inername {
   color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 18px;
   font-weight: 500;
@@ -376,7 +380,7 @@ p {
 
 .footer-frame .container .top-header .section1 .contact .topcon p {
   color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 15px;
   font-weight: 500;
@@ -386,7 +390,7 @@ p {
 
 .footer-frame .container .top-header .section1 .contact .time span {
   color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 15px;
   font-weight: 400;
@@ -402,7 +406,7 @@ p {
 
 .footer-frame .container .top-header .section2 .support {
   color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 14px;
   font-weight: 400;
@@ -422,7 +426,7 @@ p {
 
 .footer-frame .container .top-header .support {
   color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 14px;
   font-weight: 400;
@@ -489,7 +493,7 @@ p {
 
 .footer-frame .lover-header .terms p {
   color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 14px;
   font-weight: 400;
@@ -510,7 +514,7 @@ p {
 
 .footer-frame .lover-header .currensy span {
   color: rgba(98, 105, 116, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 14px;
   font-weight: 400;
@@ -523,7 +527,7 @@ p {
   background-color: none;
   height: 40px;
   color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 14px;
   font-weight: 400;
